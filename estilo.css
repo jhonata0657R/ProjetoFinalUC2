@@ -1,0 +1,94 @@
+h1{
+    color: #040c01;
+    font-size: 60px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #d4622d;
+    width: 103%;
+    height: 200px;
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    background-color: #33f77e;
+    width: 103%;
+    height:400px;
+    margin: 0px; 
+}
+header section{
+    background-color: #070707;
+    width: 900px;
+    height: 0px;
+}
+#topMenu{
+    background-color: rgb(0, 0, 0);
+    height: 20px;
+    width: 100%;
+
+}
+#promocao{
+    margin-top: 10px;
+}
+img{
+    width: 300px;
+}
+footer{
+    height: 400px;
+    width: 100;
+    background-color: rgb(5, 5, 5);
+    color: rgb(5, 5, 5);
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+nav ul li{
+    margin-right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 30px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+h3{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+form textarea{
+    margin: 4px;
+    border-radius: 5px;
+    border-style: solid;
+}
+form label{
+    margin: 4px;
+}
+#contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul a:hover{
+    color: blue;
+}
+footer{
+    color: #faf8f8;
+}
